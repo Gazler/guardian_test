@@ -1,0 +1,8 @@
+%{"cowboy": {:hex, :cowboy, "1.0.0"},
+  "cowlib": {:hex, :cowlib, "1.0.0"},
+  "guardian": {:git, "git://github.com/gazler/guardian.git", "2ceb4b8f7ed1164563698847faaf6498caa08361", [branch: "feat/authenticate"]},
+  "linguist": {:hex, :linguist, "0.1.4"},
+  "phoenix": {:hex, :phoenix, "0.6.1"},
+  "plug": {:hex, :plug, "0.8.4"},
+  "poison": {:hex, :poison, "1.2.1"},
+  "ranch": {:hex, :ranch, "1.0.0"}}

@@ -22,7 +22,11 @@ defmodule GuardianTest.Mixfile do
   #
   # Type `mix help deps` for examples and options
   defp deps do
-    [{:phoenix, github: "phoenixframework/phoenix"},
-     {:cowboy, "~> 1.0"}]
+    [
+      {:phoenix, "~> 0.6.1"},
+      {:plug, "~> 0.8.1", override: true},
+      {:guardian, github: "gazler/guardian", branch: "feat/authenticate"},
+      {:cowboy, "~> 1.0"}
+    ]
   end
 end
